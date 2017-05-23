@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8"> <!--codificação de caracteres em UTF-8-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--tit-->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Athletic Sports</title> <!--titulo do documento-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/logo.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+    <script src="./js/jquery.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/mybutton.js"></script>
+    <script src="./js/stateful.js"></script>
+</head><!--/head-->
+
+<body>
+	<header id="header"><!--header-->
+		<div class="header_top"><!--header_top-->
+			<div class="container"> <!--header_top-->
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="contactinfo">
+							<ul class="nav nav-pills">
+								<li><a href="#"><i class="fa fa-phone"></i> (49) 988890128</a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> athletic_sports@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="social-icons pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header_top-->
+		
+		<div class="header-middle"><!--header-middle-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							<a href="index.html"><img src="images/ico/logo2.png" alt="" /></a>
+						</div>
+						<div class="btn-group pull-right">
+							
+							
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+							
+								<li><a href="cart.html"><i class="glyphicon glyphicon-hand-right"></i> Favoritos</a></li>
+								<li><a href="login.html"><i class="fa fa-lock"></i> Login</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-middle-->
+	
+		<div class="header-bottom"><!--header-bottom-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="mainmenu pull-left">
+							<ul class="nav navbar-nav collapse navbar-collapse">
+								<li><a href="index.html" class="active">Home</a></li>
+								<li class="dropdown"><a href="masculino.html">Masculino</a>
+                                  
+                                </li> 
+								<li class="dropdown"><a href="feminino.html">Feminino</a>
+                                    
+                                </li> 
+							
+								<li><a href="contact-us.html">Contato</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<form class="navbar-form navbar-left" role="search">
+  							<div class="form-group">
+    							<input type="text" class="form-control" placeholder="Buscar">
+  							</div>
+							  
+						</form>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-bottom-->
+	</header><!--/header-->
+	
+	
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="left-sidebar">
+						<h2>Categorias</h2>
+						<div class="panel-group category-products" id="accordian"><!--category-productsr-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#academia">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+											Academia
+										</a>
+									</h4>
+								</div>
+								<div id="academia" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">Roupas</a></li>
+											<li><a href="#">Acessórios</a></li>
+
+											<li><a href="#">Equipamentos</a></li>
+											<li><a href="#">Suplementos </a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#basquete">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+											Basquete
+										</a>
+									</h4>
+								</div>
+								<div id="basquete" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">Camisetas</a></li>
+											<li><a href="#">Bolas</a></li>
+											<li><a href="#">Mochila</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#ciclismo">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+										Ciclismo
+										</a>
+									</h4>
+								</div>
+								<div id="ciclismo" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">Bicicletas</a></li>
+											<li><a href="#">Capacetes</a></li>
+											<li><a href="#">Cotoveleiras</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#corrida">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+										Corrida
+										</a>
+									</h4>
+								</div>
+								<div id="corrida" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">Bonés</a></li>
+											<li><a href="#">Camisetas</a></li>
+											<li><a href="#">Óculos</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#futebol">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+										Futebol
+										</a>
+									</h4>
+								</div>
+								<div id="futebol" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">Camisas de times</a></li>
+											<li><a href="#">Chuteiras</a></li>
+											<li><a href="#">Luvas de goleiro</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#natacao">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+										Natação
+										</a>
+									</h4>
+								</div>
+								<div id="natacao" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">Bermudas</a></li>
+											<li><a href="#">Chinelos</a></li>
+											<li><a href="#">Toucas</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						
+
+
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#skate">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+										Skate
+										</a>
+									</h4>
+								</div>
+								<div id="skate" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">Tênis</a></li>
+											<li><a href="#">Camisetas</a></li>
+											<li><a href="#">Cotoveleiras</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#rugby">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+										Rugby
+										</a>
+									</h4>
+								</div>
+								<div id="rugby" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">Bolas</a></li>
+											<li><a href="#">Camisetas</a></li>
+											<li><a href="#">Capacetes</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#surf">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+										Surf
+										</a>
+									</h4>
+								</div>
+								<div id="surf" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">Camisetas</a></li>
+											<li><a href="#">Bonés</a></li>
+											<li><a href="#">Pranchas</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						
+						
+						
+						</div><!--/category-products-->
+					
+						<div class="brands_products"><!--brands_products-->
+							<h2>Marcas</h2>
+							<div class="brands-name">
+								<ul class="nav nav-pills nav-stacked">
+									<li><a href="#"> <span class="pull-right">(50)</span>Adidas</a></li>
+									<li><a href="#"> <span class="pull-right">(56)</span>Asics</a></li>
+									<li><a href="#"> <span class="pull-right">(27)</span>Nike</a></li>
+									<li><a href="#"> <span class="pull-right">(32)</span>Olympikus</a></li>
+									<li><a href="#"> <span class="pull-right">(5)</span>Puma</a></li>
+									<li><a href="#"> <span class="pull-right">(9)</span>Umbro</a></li>
+									<li><a href="#"> <span class="pull-right">(4)</span>Topper</a></li>
+								</ul>
+							</div>
+						</div><!--/brands_products-->
+						
+						<div class="price-range"><!--price-range-->
+							<h2>Faixa de preço</h2>
+							<div class="well text-center">
+								 <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2" ><br />
+								 <b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
+							</div>
+						</div><!--/price-range-->
+						
+					
+					</div>
+				</div>
+				
+				<div class="col-sm-9 padding-right">
+					<div class="features_items"><!--features_items-->
+						<h2 class="title text-center">Feminino</h2></br>
+						<div class="col-sm-4">
+							<div class = "thumbnail">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="images/home/tenisfem.jpg" alt="" />
+										<h2>R$ 199,00</h2>
+										<p>Tênis Feminino Nike</p>
+										<a href= "feminino.html"><button href="feminino.html" type="submit" class="btn btn-default add-to-cart" data-loading-text="Adicionando" autocomplete="off" id="btLogon"><i class="glyphicon glyphicon-hand-right"></i>Adicionar aos favoritos</a></button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-4">
+							<div class = "thumbnail">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="images/home/camisafemfla.jpg" alt="" />
+										<h2>R$ 189,00</h2>
+										<p>Camisa Feminina Flamengo</p>
+										<a href= "feminino.html"><button href="#" type="submit" class="btn btn-default add-to-cart" data-loading-text="Adicionando" autocomplete="off" id="btLogon"><i class="glyphicon glyphicon-hand-right"></i>Adicionar aos favoritos</a></button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-4">
+							<div class = "thumbnail">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="images/home/casacofem.jpg" alt="" />
+										<h2>R$ 259,00</h2>
+										<p>Casaco Feminino</p>
+										<a href= "feminino.html"><button href="#" type="submit" class="btn btn-default add-to-cart" data-loading-text="Adicionando" autocomplete="off" id="btLogon"><i class="glyphicon glyphicon-hand-right"></i>Adicionar aos favoritos</a></button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-4">
+							<div class = "thumbnail">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="images/home/capacfem.jpg" alt="" />
+										<h2>R$116</h2>
+										<p>Capacete Cilista</p>
+										<a href= "feminino.html"><button href="#" type="submit" class="btn btn-default add-to-cart" data-loading-text="Adicionando" autocomplete="off" id="btLogon"><i class="glyphicon glyphicon-hand-right"></i>Adicionar aos favoritos</a></button>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-4">
+							<div class = "thumbnail">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="images/home/mochilafem.jpg" alt="" />
+										<h2>R$ 169,00</h2>
+										<p>Mochila Feminina</p>
+										<a href= "feminino.html"><button href="#" type="submit" class="btn btn-default add-to-cart" data-loading-text="Adicionando" autocomplete="off" id="btLogon"><i class="glyphicon glyphicon-hand-right"></i>Adicionar aos favoritos</a></button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class = "thumbnail">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="images/home/volei.jpg" alt="" />
+										<h2>R$ 119,00</h2>
+										<p>Camisa Volêi</p>
+										<a href= "feminino.html"><button href="#" type="submit" class="btn btn-default add-to-cart" data-loading-text="Adicionando" autocomplete="off" id="btLogon"><i class="glyphicon glyphicon-hand-right"></i>Adicionar aos favoritos</a></button>
+								</div>
+							</div>
+						</div>
+						
+					</div><!--features_items-->
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer id="footer"><!--Footer-->
+		
+		
+		
+		<div class="footer-widget">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Serviços</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Ajuda Online</a></li>
+								<li><a href="#">Dúvidas Frequentes</a></li>
+								<li><a href="#">Taxas de Entrega</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Busca Rápida</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Camisas</a></li>
+								<li><a href="#">Calçados</a></li>
+								<li><a href="#">Artigos Esportivos</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Politicas</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Termos de Uso</a></li>
+								<li><a href="#">Política de Privacidade</a></li>
+								<li><a href="#">Política de Devolução</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Ajuda</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Entregas</a></li>
+								<li><a href="#">Pagamentos</a></li>
+								<li><a href="#">Trocas</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3 col-sm-offset-1">
+						<div class="single-widget">
+							<h2>Notificações</h2>
+							<form action="#" class="searchform">
+								<input type="text" placeholder="e-mail" />
+								<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-circle-o-right" ></i></button>
+								<p>Receba por e-mail novidades de novos produtos e promoções</p>
+							</form>
+						</div>
+
+
+						<!-- Button trigger modal -->
+
+
+						<!-- Modal -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title" id="myModalLabel">Aviso</h4>
+					      </div>
+					      <div class="modal-body">
+					        Verifique sempre sua caixa de e-mail! Não enviamos Spam!
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					   
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p class="pull-left">Desenvolvido por Athletic Sports 2017</p>
+				</div>
+			</div>
+		</div>
+		
+	</footer><!--/Footer-->
+
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/price-range.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
